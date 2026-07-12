@@ -1,66 +1,41 @@
-## Foundry
+# Arc Starter Kit
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A beginner-friendly starter kit for building smart contracts and decentralized applications on Arc.
 
-Foundry consists of:
+## Features
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- Solidity examples
+- Basic smart contracts
+- Deployment guide
+- Arc testnet configuration
+- Best practices
 
-## Documentation
+## Project Structure
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+```
+arc-starter-kit/
+├── contracts/
+├── scripts/
+├── examples/
+├── docs/
+└── README.md
 ```
 
-### Test
+## Requirements
 
-```shell
-$ forge test
-```
+- Node.js
+- Foundry or Hardhat
+- MetaMask
+- Arc Testnet
 
-### Format
+## Getting Started
 
-```shell
-$ forge fmt
-```
+1. Clone the repository.
+2. Install dependencies.
+3. Configure your wallet.
+4. Connect to Arc Testnet.
+5. Deploy your first smart contract.
 
-### Gas Snapshots
+## License
 
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+MIT
